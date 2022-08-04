@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(..//img/paisagem.jpg);
+    background-size: cover;
+}
+
+#container h1{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.753);
+}
+p{
+    margin-left: 32%;
+    margin-top: 2vh;
+    color: rgba(255, 255, 255, 0.623);
+}
+#container{
+    width: 30%;
+    margin: 25vh auto;
+    display: block;
+    background: rgba(213, 158, 255, 0.37);
+}
+#container fieldset{
+    width: 80%;
+    margin: 10px auto;
+    border-bottom: 1px solid rgba(213, 158, 255, 0);   
+}
+#container legend{
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+#container label{
+  width: 90%;
+  margin: 10px 20px;
+  font-size: 1.2em;
+  display: flex;
+  color: #ffff;
+}
+#container input{
+    width: 70%;
+    height: 30px;
+    display: block;
+    margin-left: 20px;
+    border: none;
+    background: rgba(213, 158, 255, 0.658);
+    border-radius: 7px;
+}
+::placeholder{
+    color: #fff;
+    padding-left: 7px;
+}
+#container button{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    background: rgba(213, 158, 255, 0.644);
+    color: #fff;
+    border: none;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#container button:hover{
+    background: rgba(162, 51, 247, 0.356);
+    color: #fff;
+    transition: 2s;
+    font-size: .9rem;
+}
+input:hover{
+    background: rgba(93, 0, 165, 0.774);
+    color: #fff;
+    transition: 2s;
+    font-size: .9rem;
+    border: none;
+}
